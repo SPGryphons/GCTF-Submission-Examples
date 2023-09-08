@@ -6,7 +6,7 @@ app = Flask(__name__)
 def return_index():
     cookie = request.cookies.get('auth')
     if cookie == 'alden':
-        return "YCEP2023{co0KIe_mANIpulAT10N}"
+        return "GCTF2023{co0KIe_mANIpulAT10N}"
     else:
         if "auth" not in request.cookies:
             resp = make_response("Current cookie value: 'freshie'\nThe flag is only available for people with cookie values of 'alden' sorry.")
