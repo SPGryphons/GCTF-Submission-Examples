@@ -1,0 +1,22 @@
+challenge:
+  author: Zavier Lee
+  category: Web
+  description: I seem to have forgotten the login for my admin page, can you help
+    me log in?
+  difficulty: Easy
+  discord: gatari
+  files: null
+  flags:
+  - flag: GCTF23{4ld3N_cH14_IS_S0_C0ol}
+    regex: false
+  hints:
+  - cost: 100
+    description: Have you tried viewing page source?
+    requirements: null
+  name: Login Portal
+  requirements: null
+services:
+  login-portal:
+    name: login-portal
+    path: service/login-portal
+    port: '80'

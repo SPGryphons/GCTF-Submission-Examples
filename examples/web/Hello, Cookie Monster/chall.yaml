@@ -1,0 +1,23 @@
+challenge:
+  author: Zavier Lee
+  category: Web
+  description: Seems like Alden has eaten my cookies, I'm trying to look for him but
+    it seems like the Cookie Monster (alden) has protected himself with a cookie,
+    can you help me bypass it?
+  difficulty: Easy
+  discord: gatari
+  files: null
+  flags:
+  - flag: GCTF23{co0KIe_mANIpulAT10N}
+    regex: false
+  hints:
+  - cost: 100
+    description: Hmm, there has to be a way to change a cookie...
+    requirements: null
+  name: Hello, Cookie Monster.
+  requirements: null
+services:
+  hello-cookies:
+    name: hello-cookies
+    path: service/hello-cookies
+    port: '1337'

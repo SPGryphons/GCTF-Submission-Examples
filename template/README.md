@@ -2,10 +2,10 @@
 [Challenge Description]
 
 ## Summary
-- Author: [Name]
-- Discord Username: [Discord Username]
-- Category: [Category]
-- Difficulty: [Difficulty]
+- **Author:** [Name]
+- **Discord Username:** [Discord Username]
+- **Category:** [Category]
+- **Difficulty:** [Difficulty]
 
 ## Hints
 - `[Hint Content]` (100 points)
