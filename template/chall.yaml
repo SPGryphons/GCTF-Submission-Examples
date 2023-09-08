@@ -22,7 +22,7 @@ challenge:
 
   # The flags for the challenge
   flags:
-  - flag: gctf23{example}
+  - flag: GCTF23{example}
     regex: false
 
   # The hints for the challenge
