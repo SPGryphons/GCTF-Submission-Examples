@@ -1,5 +1,5 @@
-# Hello, Cookie Monster.
-Seems like Alden has eaten my cookies, I'm trying to look for him but it seems like the Cookie Monster (alden) has protected himself with a cookie, can you help me bypass it?
+# Hello, Cookie Monster
+Seems like Alden has eaten my cookies...
 
 ## Summary
 - **Author:** Zavier Lee
@@ -8,7 +8,7 @@ Seems like Alden has eaten my cookies, I'm trying to look for him but it seems l
 - **Difficulty:** Easy
 
 ## Hints
-- `Hmm, there has to be a way to change a cookie...` (100 points)
+None
 
 ## Files
 None
