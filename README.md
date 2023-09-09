@@ -9,10 +9,11 @@ Challenge Submission Template
 ### Option 1: CTF-Architect (Preferred)
 - [CTF-Architect](https://github.com/Jus-Codin/CTF-Architect/) is a tool that currently supports the creation & templating of challenges created for the Gryphons CTF. 
 - Do note that this tool is still in development, and may not be fully functional. If you encounter any issues, please contact the Gryphons team for assistance.
+- Stable release: `c57d517a940e0b3c42fcd806e5754ce977de1bd0`
 
 ##### 1. Clone this Git Repository
 ```bash
-git clone https://github.com/SPGryphons/GCTF-Submission-Examples
+git clone --recursive https://github.com/SPGryphons/GCTF-Submission-Examples
 ```
 #### 2. Install CTF-Architect
 ```bash
