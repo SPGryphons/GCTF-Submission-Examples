@@ -9,16 +9,14 @@ Challenge Submission Template
 ### Option 1: CTF-Architect (Preferred)
 - [CTF-Architect](https://github.com/Jus-Codin/CTF-Architect/) is a tool that currently supports the creation & templating of challenges created for the Gryphons CTF. 
 - Do note that this tool is still in development, and may not be fully functional. If you encounter any issues, please contact the Gryphons team for assistance.
-- Stable release: `c57d517a940e0b3c42fcd806e5754ce977de1bd0`
+- Stable release: [v0.1.0a1](https://github.com/Jus-Codin/CTF-Architect/releases/tag/v0.1.0a1)
 
-##### 1. Clone this Git Repository
-```bash
-git clone --recursive https://github.com/SPGryphons/GCTF-Submission-Examples
-```
+#### 1. Download the ctf_config.yaml file
+You can find the ctf_config.yaml file [here](./ctf_config.yaml)
+
 #### 2. Install CTF-Architect
 ```bash
-cd ./GCTF-Submission-Examples/CTF-Architect
-python -m pip install .
+pip install ctf-architect==0.1.0a1
 ```
 #### 3. Ensure CTF-Architect is installed
 ```bash
@@ -31,12 +29,12 @@ chall-architect --help
 chall-architect
 ```
 
-![1](https://i.imgur.com/WYZeZV3.png)
-![2](https://i.imgur.com/OCjMhEf.png)
+![1](https://i.imgur.com/ZhvsgXR.png)
+![2](https://i.imgur.com/nVy459c.png)
 
 #### 5. Submit your challenge
 - If everything goes well, your challenge should be packaged & templated nicely in the folder specified.
-- You can now **zip** the folder and submit it in the google form provided.
+- You can now **zip** the folder and submit it in the google form provided. (Please ensure that it is a **.zip** file, and not a .rar, .7z, etc.)
 
 ### Option 2: Manual Submission (not recommended)
 - If you are unable to use CTF-Architect, you may manually submit your challenge.
@@ -44,8 +42,6 @@ chall-architect
 - Do note that minor errors in the template may result in the challenge breaking, in such cases we may contact you for clarification, examples of working challenges can be found in the [examples](./examples) directory.
 
 ## Navigation
-- [CTF-Architect](./CTF-Architect)
-    - Contains the CTF-Architect tool for challenge packaging & templating
 - [examples](./examples)
     - Contains challenge documentation examples for OSINT, Static & Hosted Web Challenges
 - [templates](./templates)
