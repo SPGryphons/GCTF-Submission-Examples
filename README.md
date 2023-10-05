@@ -26,15 +26,22 @@ The `chall.yaml` file is a special configuration file that contains information 
 ### Option 1: CTF-Architect (Preferred)
 - [CTF-Architect](https://github.com/Jus-Codin/CTF-Architect/) is a tool that currently supports the creation & templating of challenges created for the Gryphons CTF. 
 - Do note that this tool is still in development, and may not be fully functional. If you encounter any issues, please contact the Gryphons team for assistance.
-- Stable release: [v0.1.0a1](https://github.com/Jus-Codin/CTF-Architect/releases/tag/v0.1.0a1)
+- Stable release: [v0.1.0a3](https://github.com/Jus-Codin/CTF-Architect/releases/tag/v0.1.0a3)
 
 #### 1. Download the ctf_config.yaml file
 You can find the ctf_config.yaml file [here](./ctf_config.yaml)
 
 #### 2. Install CTF-Architect
 ```bash
-pip install ctf-architect==0.1.0a1
+# Linux and MacOS
+python3 -m pip install ctf-architect==0.1.0a3
+
+# Windows
+py -3 -m pip install ctf-architect==0.1.0a3
 ```
+
+NOTE: If the command above fails, try running it in an administrator shell. If it still fails, please contact Gryphons support for assistance.
+
 #### 3. Ensure CTF-Architect is installed
 ```bash
 ctf-architect --help
